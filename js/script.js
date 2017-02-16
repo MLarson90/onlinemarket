@@ -10,7 +10,9 @@ $('#custInfo').submit(function(event){
 
 
 
-  $('#total').text((parseInt($("#iceCream").val())) * 1.07);
+
+
+  $('#total').text(parseInt($("#iceCream").val()) * 1.07);
 
 
 
