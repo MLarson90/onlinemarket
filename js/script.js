@@ -1,11 +1,17 @@
 $(document).ready(function(){
-
+  // var ice = function(price){
+  //   return price;
+  // }
 
 $('#custInfo').submit(function(event){
   event.preventDefault();
 
   var flavor = $("input:radio[name=flavor]:checked").val();
-  var beverage = $("#iceCream").val();
+
+
+
+  $('#total').text((parseInt($("#iceCream").val())) * 1.07);
+
 
 
 
